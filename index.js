@@ -146,7 +146,7 @@ app.post("/bfhl", async (req, res) => {
       data
     });
 
-  } } catch (err) {
+  } catch (err) {
   console.error("Unhandled error:", err);
 
   res.status(200).json({
